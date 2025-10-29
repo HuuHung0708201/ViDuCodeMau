@@ -42,6 +42,7 @@
             <Link text="{i18n>ViDu31}" press=".onNavToDetail31" class="sapUiMediumMargin sapMTextBold" />
             <Link text="{i18n>ViDu32}" press=".onNavToDetail32" class="sapUiMediumMargin sapMTextBold" />
             <Link text="{i18n>ViDu33}" press=".onNavToDetail33" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu34}" press=".onNavToDetail34" class="sapUiMediumMargin sapMTextBold" />
         </content>
     </Page>
 </mvc:View>

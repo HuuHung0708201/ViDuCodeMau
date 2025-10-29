@@ -264,6 +264,11 @@
           "name": "RouteViDu33",
           "pattern": "ViDu33",
           "target": ["ViDu33"]
+        },
+        {
+          "name": "RouteViDu34",
+          "pattern": "ViDu34",
+          "target": ["ViDu34"]
         }
       ],
       "targets": {
@@ -374,6 +379,9 @@
         },
         "ViDu33": {
           "viewName": "ViDu33"
+        },
+        "ViDu34": {
+          "viewName": "ViDu34"
         }
       }
     },

@@ -171,4 +171,9 @@ export default class Main extends Controller {
     const oRouter = UIComponent.getRouterFor(this);
     oRouter.navTo("RouteViDu33");
   }
+
+  public onNavToDetail34(): void {
+    const oRouter = UIComponent.getRouterFor(this);
+    oRouter.navTo("RouteViDu34");
+  }
 }

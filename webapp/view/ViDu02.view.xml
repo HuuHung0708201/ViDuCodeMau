@@ -1,0 +1,28 @@
+<mvc:View
+    controllerName="base.controller.ViDu02"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:ushell="sap.ushell.ui.footerbar"
+    displayBlock="true">
+
+    <Page
+        title="{i18n>ViDu02}"
+        showNavButton="true"
+        navButtonPress=".onNavBack">
+
+        <content>
+            <ushell:AddBookmarkButton
+                title="Sample Bookmark title"
+                subtitle="Sample subtitle"
+                info="Sample Info"
+                tileIcon="sap-icon://attachment"
+                numberUnit="USD"
+                serviceUrl="https://www.sap.com"
+                serviceRefreshInterval="300"
+                beforePressHandler=".onSaveAsTileOpen"
+                afterPressHandler=".onSaveAsTileClose"
+            />
+        </content>
+    </Page>
+</mvc:View>

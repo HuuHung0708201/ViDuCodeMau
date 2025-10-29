@@ -1,0 +1,74 @@
+{
+  "Products": [
+    {
+      "Product": "Chair",
+      "Supplier": "HomeDecor Ltd.",
+      "Dimensions": "45 x 45 x 90 cm",
+      "Price": 120.5,
+      "ProductId": "P-1001",
+      "SupplierName": "HomeDecor Ltd.",
+      "Name": "Wooden Chair",
+      "Width": 45,
+      "Depth": 45,
+      "Height": 90,
+      "DimUnit": "cm",
+      "CurrencyCode": "USD"
+    },
+    {
+      "Product": "Table",
+      "Supplier": "FurniWorld Co.",
+      "Dimensions": "120 x 80 x 75 cm",
+      "Price": 350,
+      "ProductId": "P-1002",
+      "SupplierName": "FurniWorld Co.",
+      "Name": "Dining Table",
+      "Width": 120,
+      "Depth": 80,
+      "Height": 75,
+      "DimUnit": "cm",
+      "CurrencyCode": "USD"
+    },
+    {
+      "Product": "Lamp",
+      "Supplier": "BrightLight Inc.",
+      "Dimensions": "20 x 20 x 50 cm",
+      "Price": 60,
+      "ProductId": "P-1003",
+      "SupplierName": "BrightLight Inc.",
+      "Name": "Desk Lamp",
+      "Width": 20,
+      "Depth": 20,
+      "Height": 50,
+      "DimUnit": "cm",
+      "CurrencyCode": "USD"
+    },
+    {
+      "Product": "Sofa",
+      "Supplier": "ComfyHome",
+      "Dimensions": "200 x 90 x 100 cm",
+      "Price": 950,
+      "ProductId": "P-1004",
+      "SupplierName": "ComfyHome",
+      "Name": "3-Seater Sofa",
+      "Width": 200,
+      "Depth": 90,
+      "Height": 100,
+      "DimUnit": "cm",
+      "CurrencyCode": "USD"
+    },
+    {
+      "Product": "Bookshelf",
+      "Supplier": "StoragePro",
+      "Dimensions": "80 x 30 x 180 cm",
+      "Price": 210,
+      "ProductId": "P-1005",
+      "SupplierName": "StoragePro",
+      "Name": "Wooden Bookshelf",
+      "Width": 80,
+      "Depth": 30,
+      "Height": 180,
+      "DimUnit": "cm",
+      "CurrencyCode": "USD"
+    }
+  ]
+}

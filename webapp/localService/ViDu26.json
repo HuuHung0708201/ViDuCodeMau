@@ -1,0 +1,114 @@
+{
+  "ProductCollection": [
+    {
+      "Name": "Laptop Pro 15",
+      "ProductId": "P001",
+      "SupplierName": "TechCorp",
+      "Width": 35,
+      "Depth": 24,
+      "Height": 2,
+      "DimUnit": "cm",
+      "Price": 1500,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Smartphone X",
+      "ProductId": "P002",
+      "SupplierName": "PhoneMakers",
+      "Width": 7,
+      "Depth": 14,
+      "Height": 0.7,
+      "DimUnit": "cm",
+      "Price": 999,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Wireless Mouse",
+      "ProductId": "P003",
+      "SupplierName": "TechCorp",
+      "Width": 6,
+      "Depth": 11,
+      "Height": 3.5,
+      "DimUnit": "cm",
+      "Price": 25,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Mechanical Keyboard",
+      "ProductId": "P004",
+      "SupplierName": "KeyMasters",
+      "Width": 45,
+      "Depth": 15,
+      "Height": 4,
+      "DimUnit": "cm",
+      "Price": 120,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "27\" Monitor",
+      "ProductId": "P005",
+      "SupplierName": "ScreenTech",
+      "Width": 62,
+      "Depth": 20,
+      "Height": 40,
+      "DimUnit": "cm",
+      "Price": 300,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "External SSD 1TB",
+      "ProductId": "P006",
+      "SupplierName": "StorageSolutions",
+      "Width": 7,
+      "Depth": 10,
+      "Height": 1,
+      "DimUnit": "cm",
+      "Price": 150,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Gaming Chair",
+      "ProductId": "P007",
+      "SupplierName": "ComfortSeats",
+      "Width": 70,
+      "Depth": 75,
+      "Height": 120,
+      "DimUnit": "cm",
+      "Price": 350,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Bluetooth Headphones",
+      "ProductId": "P008",
+      "SupplierName": "SoundMagic",
+      "Width": 18,
+      "Depth": 20,
+      "Height": 8,
+      "DimUnit": "cm",
+      "Price": 80,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Smartwatch Series 5",
+      "ProductId": "P009",
+      "SupplierName": "WearTech",
+      "Width": 4,
+      "Depth": 4,
+      "Height": 1,
+      "DimUnit": "cm",
+      "Price": 250,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Portable Projector",
+      "ProductId": "P010",
+      "SupplierName": "VisionLight",
+      "Width": 12,
+      "Depth": 12,
+      "Height": 6,
+      "DimUnit": "cm",
+      "Price": 400,
+      "CurrencyCode": "USD"
+    }
+  ]
+}

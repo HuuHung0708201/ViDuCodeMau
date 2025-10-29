@@ -1,0 +1,36 @@
+{
+  "ProductCollection": [
+    {
+      "Name": "Laptop HP Pavilion 15",
+      "ProductId": "P001",
+      "ProductPicUrl": "https://picsum.photos/200/150?random=1",
+      "SupplierName": "HP Inc.",
+      "Price": 1200,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Apple iPhone 15",
+      "ProductId": "P002",
+      "ProductPicUrl": "https://picsum.photos/200/150?random=2",
+      "SupplierName": "Apple",
+      "Price": 999,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Samsung Galaxy S23",
+      "ProductId": "P003",
+      "ProductPicUrl": "https://picsum.photos/200/150?random=3",
+      "SupplierName": "Samsung",
+      "Price": 899,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Dell XPS 13",
+      "ProductId": "P004",
+      "ProductPicUrl": "https://picsum.photos/200/150?random=4",
+      "SupplierName": "Dell",
+      "Price": 1100,
+      "CurrencyCode": "USD"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<mvc:View
+    controllerName="base.controller.ViDu19"
+   	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+    displayBlock="true">
+	<VBox class="sapUiSmallMargin">
+		<Button id="button1" text="Open Menu" press="onPress" ariaHasPopup="Menu"/>
+	</VBox>
+</mvc:View>
+<!-- Đã nâng cấp bản 1.141.0 -->

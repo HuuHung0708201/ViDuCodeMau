@@ -1,0 +1,387 @@
+{
+  "_version": "1.60.0",
+  "sap.app": {
+    "id": "base",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.18.3",
+      "toolsId": "07e8f8da-fa2b-4d51-a48f-9c4ae2eecb72"
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/V2/Northwind/Northwind.svc/",
+        "type": "OData",
+        "settings": {
+          "annotations": [],
+          "localUri": "localService/mainService/metadata.xml",
+          "odataVersion": "2.0"
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "static/favicon.ico",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    },
+    "fullWidth": false
+  },
+  "sap.ui5": {
+    "flexEnabled": false,
+    "dependencies": {
+      "minUI5Version": "1.141.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "base.i18n.i18n",
+          "supportedLocales": ["en", ""],
+          "fallbackLocale": ""
+        }
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {}
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "base.view",
+        "async": true,
+        "viewPath": "base.view",
+        "bypassed": {
+          "target": "notFound"
+        }
+      },
+      "routes": [
+        {
+          "name": "RouteMain",
+          "pattern": ":?query:",
+          "target": ["TargetMain"]
+        },
+        {
+          "name": "RouteViDu01",
+          "pattern": "ViDu01",
+          "target": ["ViDu01"]
+        },
+        {
+          "name": "RouteViDu02",
+          "pattern": "ViDu02",
+          "target": ["ViDu02"]
+        },
+        {
+          "name": "RouteViDu03",
+          "pattern": "ViDu03",
+          "target": ["ViDu03"]
+        },
+        {
+          "name": "RouteViDu04",
+          "pattern": "ViDu04",
+          "target": ["ViDu04"]
+        },
+        {
+          "name": "RouteViDu05",
+          "pattern": "ViDu05",
+          "target": ["ViDu05"]
+        },
+        {
+          "name": "RouteViDu06",
+          "pattern": "ViDu06",
+          "target": ["ViDu06"]
+        },
+        {
+          "name": "RouteViDu07",
+          "pattern": "ViDu07",
+          "target": ["ViDu07"]
+        },
+        {
+          "name": "RouteViDu08",
+          "pattern": "ViDu08",
+          "target": ["ViDu08"]
+        },
+        {
+          "name": "RouteViDu09",
+          "pattern": "ViDu09",
+          "target": ["ViDu09"]
+        },
+        {
+          "name": "RouteViDu10",
+          "pattern": "ViDu10",
+          "target": ["ViDu10"]
+        },
+        {
+          "name": "RouteViDu11",
+          "pattern": "ViDu11",
+          "target": ["ViDu11"]
+        },
+        {
+          "name": "RouteViDu12",
+          "pattern": "ViDu12",
+          "target": ["ViDu12"]
+        },
+        {
+          "name": "RouteViDu13",
+          "pattern": "ViDu13",
+          "target": ["ViDu13"]
+        },
+        {
+          "name": "RouteViDu14",
+          "pattern": "ViDu14",
+          "target": ["ViDu14"]
+        },
+        {
+          "name": "RouteViDu15",
+          "pattern": "ViDu15",
+          "target": ["ViDu15"]
+        },
+        {
+          "name": "RouteViDu16",
+          "pattern": "ViDu16",
+          "target": ["ViDu16"]
+        },
+        {
+          "name": "RouteViDu17",
+          "pattern": "ViDu17",
+          "target": ["ViDu17"]
+        },
+        {
+          "name": "RouteViDu18",
+          "pattern": "ViDu18",
+          "target": ["ViDu18"]
+        },
+        {
+          "name": "RouteViDu19",
+          "pattern": "ViDu19",
+          "target": ["ViDu19"]
+        },
+        {
+          "name": "RouteViDu20",
+          "pattern": "ViDu20",
+          "target": ["ViDu20"]
+        },
+        {
+          "name": "RouteViDu21",
+          "pattern": "ViDu21",
+          "target": ["ViDu21"]
+        },
+        {
+          "name": "RouteViDu22",
+          "pattern": "ViDu22",
+          "target": ["ViDu22"]
+        },
+        {
+          "name": "RouteViDu23",
+          "pattern": "ViDu23",
+          "target": ["ViDu23"]
+        },
+        {
+          "name": "RouteViDu24",
+          "pattern": "ViDu24",
+          "target": ["ViDu24"]
+        },
+        {
+          "name": "RouteViDu25",
+          "pattern": "ViDu25",
+          "target": ["ViDu25"]
+        },
+        {
+          "name": "RouteViDu26",
+          "pattern": "ViDu26",
+          "target": ["ViDu26"]
+        },
+        {
+          "name": "RouteViDu27",
+          "pattern": "ViDu27",
+          "target": ["ViDu27"]
+        },
+        {
+          "name": "RouteViDu28",
+          "pattern": "ViDu28",
+          "target": ["ViDu28"]
+        },
+        {
+          "name": "RouteViDu29",
+          "pattern": "ViDu29",
+          "target": ["ViDu29"]
+        },
+        {
+          "name": "RouteViDu30",
+          "pattern": "ViDu30",
+          "target": ["ViDu30"]
+        },
+        {
+          "name": "RouteViDu31",
+          "pattern": "ViDu31",
+          "target": ["ViDu31"]
+        },
+        {
+          "name": "RouteViDu32",
+          "pattern": "ViDu32",
+          "target": ["ViDu32"]
+        },
+        {
+          "name": "RouteViDu33",
+          "pattern": "ViDu33",
+          "target": ["ViDu33"]
+        }
+      ],
+      "targets": {
+        "TargetMain": {
+          "id": "Main",
+          "name": "Main"
+        },
+        "notFound": {
+          "viewId": "notFound",
+          "viewName": "NotFound",
+          "title": "{i18n>appTitle}"
+        },
+        "ViDu01": {
+          "viewName": "ViDu01"
+        },
+        "ViDu02": {
+          "viewName": "ViDu02"
+        },
+        "ViDu03": {
+          "viewName": "ViDu03"
+        },
+        "ViDu04": {
+          "viewName": "ViDu04"
+        },
+        "ViDu05": {
+          "viewName": "ViDu05"
+        },
+        "ViDu06": {
+          "viewName": "ViDu06"
+        },
+        "ViDu07": {
+          "viewName": "ViDu07"
+        },
+        "ViDu08": {
+          "viewName": "ViDu08"
+        },
+        "ViDu09": {
+          "viewName": "ViDu09"
+        },
+        "ViDu10": {
+          "viewName": "ViDu10"
+        },
+        "ViDu11": {
+          "viewName": "ViDu11"
+        },
+        "ViDu12": {
+          "viewName": "ViDu12"
+        },
+        "ViDu13": {
+          "viewName": "ViDu13"
+        },
+        "ViDu14": {
+          "viewName": "ViDu14"
+        },
+        "ViDu15": {
+          "viewName": "ViDu15"
+        },
+        "ViDu16": {
+          "viewName": "ViDu16"
+        },
+        "ViDu17": {
+          "viewName": "ViDu17"
+        },
+        "ViDu18": {
+          "viewName": "ViDu18"
+        },
+        "ViDu19": {
+          "viewName": "ViDu19"
+        },
+        "ViDu20": {
+          "viewName": "ViDu20"
+        },
+        "ViDu21": {
+          "viewName": "ViDu21"
+        },
+        "ViDu22": {
+          "viewName": "ViDu22"
+        },
+        "ViDu23": {
+          "viewName": "ViDu23"
+        },
+        "ViDu24": {
+          "viewName": "ViDu24"
+        },
+        "ViDu25": {
+          "viewName": "ViDu25"
+        },
+        "ViDu26": {
+          "viewName": "ViDu26"
+        },
+        "ViDu27": {
+          "viewName": "ViDu27"
+        },
+        "ViDu28": {
+          "viewName": "ViDu28"
+        },
+        "ViDu29": {
+          "viewName": "ViDu29"
+        },
+        "ViDu30": {
+          "viewName": "ViDu30"
+        },
+        "ViDu31": {
+          "viewName": "ViDu31"
+        },
+        "ViDu32": {
+          "viewName": "ViDu32"
+        },
+        "ViDu33": {
+          "viewName": "ViDu33"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "base.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}

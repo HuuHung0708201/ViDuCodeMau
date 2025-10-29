@@ -1,0 +1,47 @@
+<mvc:View
+    controllerName="base.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page title="Trang chính">
+        <content>
+            <VBox>
+                <Text text="Action" layoutData=".VBoxLayoutData" />
+            </VBox>
+            <Link text="Link hướng dẫn" href="https://sapui5.hana.ondemand.com/#/topic/bcdbde6911bd4fc68fd435cf8e306ed0" target="_blank" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu01}" press=".onNavToDetail" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu02}" press=".onNavToDetail02" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu03}" press=".onNavToDetail03" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu04}" press=".onNavToDetail04" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu05}" press=".onNavToDetail05" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu06}" press=".onNavToDetail06" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu07}" press=".onNavToDetail07" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu08}" press=".onNavToDetail08" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu09}" press=".onNavToDetail09" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu10}" press=".onNavToDetail10" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu11}" press=".onNavToDetail11" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu12}" press=".onNavToDetail12" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu13}" press=".onNavToDetail13" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu14}" press=".onNavToDetail14" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu15}" press=".onNavToDetail15" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu16}" press=".onNavToDetail16" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu17}" press=".onNavToDetail17" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu18}" press=".onNavToDetail18" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu19}" press=".onNavToDetail19" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu20}" press=".onNavToDetail20" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu21}" press=".onNavToDetail21" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu22}" press=".onNavToDetail22" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu23}" press=".onNavToDetail23" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu24}" press=".onNavToDetail24" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu25}" press=".onNavToDetail25" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu26}" press=".onNavToDetail26" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu27}" press=".onNavToDetail27" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu28}" press=".onNavToDetail28" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu29}" press=".onNavToDetail29" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu30}" press=".onNavToDetail30" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu31}" press=".onNavToDetail31" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu32}" press=".onNavToDetail32" class="sapUiMediumMargin sapMTextBold" />
+            <Link text="{i18n>ViDu33}" press=".onNavToDetail33" class="sapUiMediumMargin sapMTextBold" />
+        </content>
+    </Page>
+</mvc:View>

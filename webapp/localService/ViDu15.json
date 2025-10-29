@@ -1,0 +1,44 @@
+{
+  "ProductCollection": [
+    {
+      "ProductId": "P1001",
+      "Name": "Wireless Mouse",
+      "SupplierName": "TechZone Ltd.",
+      "Category": "Accessories",
+      "ProductPicUrl": "https://picsum.photos/id/1080/400/300",
+      "picture": "https://dummyimage.com/100x100/cccccc/000000.png&text=Mouse"
+    },
+    {
+      "ProductId": "P1002",
+      "Name": "Mechanical Keyboard",
+      "SupplierName": "KeyMaster Inc.",
+      "Category": "Accessories",
+      "ProductPicUrl": "https://picsum.photos/id/180/400/300",
+      "picture": "https://dummyimage.com/100x100/cccccc/000000.png&text=Keyboard"
+    },
+    {
+      "ProductId": "P1003",
+      "Name": "27'' 4K Monitor",
+      "SupplierName": "DisplayPro",
+      "Category": "Monitors",
+      "ProductPicUrl": "https://picsum.photos/id/1015/400/300",
+      "picture": "https://dummyimage.com/100x100/cccccc/000000.png&text=Monitor"
+    },
+    {
+      "ProductId": "P1004",
+      "Name": "Gaming Laptop",
+      "SupplierName": "NextGen Computers",
+      "Category": "Laptops",
+      "ProductPicUrl": "https://picsum.photos/id/250/400/300",
+      "picture": "https://dummyimage.com/100x100/cccccc/000000.png&text=Laptop"
+    },
+    {
+      "ProductId": "P1005",
+      "Name": "Bluetooth Headphones",
+      "SupplierName": "AudioWorld",
+      "Category": "Audio",
+      "ProductPicUrl": "https://picsum.photos/id/29/400/300",
+      "picture": "https://dummyimage.com/100x100/cccccc/000000.png&text=Headphones"
+    }
+  ]
+}

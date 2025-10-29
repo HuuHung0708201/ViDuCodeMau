@@ -1,0 +1,114 @@
+{
+  "ProductCollection": [
+    {
+      "Name": "Product A",
+      "ProductId": "P001",
+      "SupplierName": "Supplier X",
+      "Width": 120,
+      "Depth": 80,
+      "Height": 60,
+      "DimUnit": "cm",
+      "Price": 250,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Product B",
+      "ProductId": "P002",
+      "SupplierName": "Supplier Y",
+      "Width": 150,
+      "Depth": 90,
+      "Height": 75,
+      "DimUnit": "cm",
+      "Price": 300,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Product C",
+      "ProductId": "P003",
+      "SupplierName": "Supplier X",
+      "Width": 100,
+      "Depth": 70,
+      "Height": 50,
+      "DimUnit": "cm",
+      "Price": 200,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Product D",
+      "ProductId": "P004",
+      "SupplierName": "Supplier Z",
+      "Width": 130,
+      "Depth": 85,
+      "Height": 65,
+      "DimUnit": "cm",
+      "Price": 280,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Product E",
+      "ProductId": "P005",
+      "SupplierName": "Supplier Y",
+      "Width": 110,
+      "Depth": 75,
+      "Height": 55,
+      "DimUnit": "cm",
+      "Price": 220,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Product F",
+      "ProductId": "P006",
+      "SupplierName": "Supplier X",
+      "Width": 140,
+      "Depth": 95,
+      "Height": 70,
+      "DimUnit": "cm",
+      "Price": 320,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Product G",
+      "ProductId": "P007",
+      "SupplierName": "Supplier Z",
+      "Width": 125,
+      "Depth": 80,
+      "Height": 60,
+      "DimUnit": "cm",
+      "Price": 260,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Product H",
+      "ProductId": "P008",
+      "SupplierName": "Supplier Y",
+      "Width": 135,
+      "Depth": 85,
+      "Height": 65,
+      "DimUnit": "cm",
+      "Price": 290,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Product I",
+      "ProductId": "P009",
+      "SupplierName": "Supplier Z",
+      "Width": 115,
+      "Depth": 78,
+      "Height": 58,
+      "DimUnit": "cm",
+      "Price": 240,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Product J",
+      "ProductId": "P010",
+      "SupplierName": "Supplier X",
+      "Width": 150,
+      "Depth": 90,
+      "Height": 70,
+      "DimUnit": "cm",
+      "Price": 330,
+      "CurrencyCode": "USD"
+    }
+  ]
+}

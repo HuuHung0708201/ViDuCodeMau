@@ -1,0 +1,206 @@
+<mvc:View
+    controllerName="base.controller.ViDu08"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:m="sap.m"
+    xmlns:uxap="sap.uxap"
+    xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+    xmlns:sample="base.view.blocks"
+    displayBlock="true">
+	<uxap:ObjectPageLayout
+        id="ObjectPageLayout"
+        showTitleInHeaderContent="true"
+        upperCaseAnchorBar="false">
+		<uxap:headerTitle>
+			<uxap:ObjectPageDynamicHeaderTitle>
+				<uxap:breadcrumbs>
+					<m:Breadcrumbs>
+						<m:Link text="Page 1"/>
+						<m:Link text="Page 2"/>
+						<m:Link text="Page 3"/>
+						<m:Link text="Page 4"/>
+						<m:Link text="Page 5"/>
+					</m:Breadcrumbs>
+				</uxap:breadcrumbs>
+				<uxap:expandedHeading>
+					<m:Title text="Denise Smith" wrapping="true"/>
+				</uxap:expandedHeading>
+				<uxap:snappedHeading>
+					<m:Title text="Denise Smith" wrapping="true"/>
+				</uxap:snappedHeading>
+				<uxap:expandedContent>
+					<m:Text text="Senior Developer"/>
+				</uxap:expandedContent>
+				<uxap:snappedContent>
+					<m:Text text="Senior Developer"/>
+				</uxap:snappedContent>
+				<uxap:actions>
+					<uxap:ObjectPageHeaderActionButton text="Edit" type="Emphasized" icon="sap-icon://edit"/>
+					<uxap:ObjectPageHeaderActionButton type="Transparent" text="Delete" icon="sap-icon://delete"/>
+					<uxap:ObjectPageHeaderActionButton type="Transparent" text="Copy" icon="sap-icon://copy"/>
+					<uxap:ObjectPageHeaderActionButton type="Transparent" text="Add" icon="sap-icon://add"/>
+					<uxap:ObjectPageHeaderActionButton icon="sap-icon://action" type="Transparent" text="Share"/>
+				</uxap:actions>
+				<uxap:navigationActions>
+					<uxap:ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-up" type="Transparent"/>
+					<uxap:ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-down" type="Transparent"/>
+				</uxap:navigationActions>
+				<uxap:content>
+					<m:GenericTag text="Material Shortage" status="Warning"/>
+				</uxap:content>
+			</uxap:ObjectPageDynamicHeaderTitle>
+		</uxap:headerTitle>
+		<uxap:headerContent>
+			<l:HorizontalLayout allowWrapping="true">
+				<l:VerticalLayout class="sapUiMediumMarginEnd">
+					<m:ObjectAttribute title="Location" text="Warehouse A"/>
+					<m:ObjectAttribute title="Halway" text="23L"/>
+					<m:ObjectAttribute title="Rack" text="34"/>
+				</l:VerticalLayout>
+				<l:VerticalLayout>
+					<m:ObjectAttribute title="Availability"/>
+					<m:ObjectStatus text="In Stock" state="Success"/>
+				</l:VerticalLayout>
+			</l:HorizontalLayout>
+		</uxap:headerContent>
+		<uxap:sections>
+			<!-- Section 1 -->
+			<uxap:ObjectPageSection titleUppercase="false" id="section1" title="Section 1">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection id="section1_SS1" title="Subsection 1.1">
+						<uxap:blocks>
+							<sample:ViDu08Block id="bbt1"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+					<uxap:ObjectPageSubSection id="section1_SS2" title="Subsection 1.2">
+						<uxap:blocks>
+							<sample:ViDu08Block id="bbt2"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<!-- Section 2 -->
+			<uxap:ObjectPageSection titleUppercase="false" id="section2" title="Section 2"/>
+			<!-- Section 3 -->
+			<uxap:ObjectPageSection titleUppercase="false" id="section3" title="Section 3">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection id="section3_SS1" title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="bbt3"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<!-- Section 4 → Section 15 -->
+			<uxap:ObjectPageSection titleUppercase="false" id="section4" title="Section 4">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b4"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection titleUppercase="false" id="section5" title="Section 5">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b5"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection titleUppercase="false" id="section6" title="Section 6">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b6"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection titleUppercase="false" id="section7" title="Section 7">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b7"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection titleUppercase="false" id="section8" title="Section 8">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b8"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection titleUppercase="false" id="section9" title="Section 9">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b9"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection titleUppercase="false" id="section10" title="Section 10">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b10"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection titleUppercase="false" id="section11" title="Section 11">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b11"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection titleUppercase="false" id="section12" title="Section 12">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b12"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection titleUppercase="false" id="section13" title="Section 13">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b13"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection titleUppercase="false" id="section14" title="Section 14">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b14"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+			<uxap:ObjectPageSection titleUppercase="false" id="section15" title="Section 15">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection title=" ">
+						<uxap:blocks>
+							<sample:ViDu08Block id="b15"/>
+						</uxap:blocks>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+			</uxap:ObjectPageSection>
+		</uxap:sections>
+	</uxap:ObjectPageLayout>
+</mvc:View>

@@ -1,0 +1,46 @@
+{
+  "ProductCollection": [
+    {
+      "ProductId": "P1001",
+      "Name": "Wireless Headphones",
+      "ProductPicUrl": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1001.jpg",
+      "SupplierName": "ACME Corp",
+      "Width": 30,
+      "Depth": 20,
+      "Height": 15,
+      "DimUnit": "cm",
+      "WeightMeasure": 1.2,
+      "WeightUnit": "kg",
+      "Price": 199.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P1002",
+      "Name": "Smart Speaker",
+      "ProductPicUrl": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
+      "SupplierName": "GlobalTech Ltd",
+      "Width": 45,
+      "Depth": 30,
+      "Height": 10,
+      "DimUnit": "cm",
+      "WeightMeasure": 2.5,
+      "WeightUnit": "kg",
+      "Price": 299.5,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P1003",
+      "Name": "Bluetooth Mouse",
+      "ProductPicUrl": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1003.jpg",
+      "SupplierName": "FutureVision Inc",
+      "Width": 25,
+      "Depth": 25,
+      "Height": 8,
+      "DimUnit": "cm",
+      "WeightMeasure": 0.9,
+      "WeightUnit": "kg",
+      "Price": 149.0,
+      "CurrencyCode": "USD"
+    }
+  ]
+}

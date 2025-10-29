@@ -1,0 +1,25 @@
+<mvc:View
+    controllerName="base.controller.ViDu28"
+   	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+    displayBlock="true">
+	<Page
+		showHeader="false">
+		<content>
+			<PullToRefresh
+				id="pullToRefresh"
+				refresh="handleRefresh" />
+			<List
+				id="list"
+				items="{/ProductCollection}" >
+				<StandardListItem
+					title="{Name}"
+					description="{ProductId}"
+					icon="{ProductPicUrl}"
+					iconDensityAware="false"
+					iconInset="false" />
+			</List>
+		</content>
+	</Page>
+</mvc:View>
+<!-- Đã nâng cấp bản 1.141.0 -->

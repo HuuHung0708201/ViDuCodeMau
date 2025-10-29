@@ -1,0 +1,114 @@
+{
+  "ProductCollection": [
+    {
+      "Name": "Chair Alpha",
+      "ProductId": "P001",
+      "SupplierName": "Supplier A",
+      "Width": 45,
+      "Depth": 50,
+      "Height": 90,
+      "DimUnit": "cm",
+      "Price": 120,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Table Beta",
+      "ProductId": "P002",
+      "SupplierName": "Supplier B",
+      "Width": 120,
+      "Depth": 80,
+      "Height": 75,
+      "DimUnit": "cm",
+      "Price": 250,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Cabinet Gamma",
+      "ProductId": "P003",
+      "SupplierName": "Supplier C",
+      "Width": 60,
+      "Depth": 40,
+      "Height": 180,
+      "DimUnit": "cm",
+      "Price": 320,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Shelf Delta",
+      "ProductId": "P004",
+      "SupplierName": "Supplier A",
+      "Width": 80,
+      "Depth": 35,
+      "Height": 200,
+      "DimUnit": "cm",
+      "Price": 180,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Sofa Epsilon",
+      "ProductId": "P005",
+      "SupplierName": "Supplier B",
+      "Width": 200,
+      "Depth": 90,
+      "Height": 85,
+      "DimUnit": "cm",
+      "Price": 500,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Desk Zeta",
+      "ProductId": "P006",
+      "SupplierName": "Supplier C",
+      "Width": 150,
+      "Depth": 70,
+      "Height": 75,
+      "DimUnit": "cm",
+      "Price": 270,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Bed Eta",
+      "ProductId": "P007",
+      "SupplierName": "Supplier A",
+      "Width": 160,
+      "Depth": 200,
+      "Height": 45,
+      "DimUnit": "cm",
+      "Price": 450,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Chair Theta",
+      "ProductId": "P008",
+      "SupplierName": "Supplier B",
+      "Width": 50,
+      "Depth": 55,
+      "Height": 95,
+      "DimUnit": "cm",
+      "Price": 130,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Lamp Iota",
+      "ProductId": "P009",
+      "SupplierName": "Supplier C",
+      "Width": 30,
+      "Depth": 30,
+      "Height": 60,
+      "DimUnit": "cm",
+      "Price": 60,
+      "CurrencyCode": "USD"
+    },
+    {
+      "Name": "Stool Kappa",
+      "ProductId": "P010",
+      "SupplierName": "Supplier A",
+      "Width": 35,
+      "Depth": 35,
+      "Height": 45,
+      "DimUnit": "cm",
+      "Price": 50,
+      "CurrencyCode": "USD"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<mvc:View
+    controllerName="base.controller.ViDu20"
+   	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	class="viewPadding"
+    displayBlock="true">
+	<l:HorizontalLayout>
+		<Button id="openMenu" text="Open Menu" press="handlePressOpenMenu" ariaHasPopup="Menu"/>
+	</l:HorizontalLayout>
+</mvc:View>
+<!-- Đã nâng cấp bản 1.141.0 -->
